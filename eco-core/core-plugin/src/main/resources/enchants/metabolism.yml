@@ -16,6 +16,6 @@ enchantable: true
 effects:
   - id: food_multiplier
     args:
-      multiplier: "1 * %level% * 0.125"
+      multiplier: "1 + ( %level% * 0.125 )"
 
 conditions: [ ]
